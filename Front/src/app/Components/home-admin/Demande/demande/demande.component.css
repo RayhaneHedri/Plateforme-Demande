@@ -26,3 +26,17 @@
       margin-bottom: 1rem;
   
     }
+
+    .card-demande {
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.068);
+      border: 0.25px solid rgba(0, 0, 0, 0.244);
+      transition: 0.3s;
+      width: 40%;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 1rem;
+    }
+
+    .container-demande {
+      margin: 2rem
+    }

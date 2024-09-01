@@ -11,13 +11,14 @@ body{
     border: 0.25px solid rgba(0, 0, 0, 0.244);
     transition: 0.3s;
     width: 40%;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border-radius: 1rem;
   }
 
   .card-overview {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.068);
-    background-color: #E3F5FF;
+    background-color: #bde1f4;
     transition: 0.3s;
     width: 40%;
     margin-right: 2rem;
@@ -37,8 +38,9 @@ body{
   
   .containerr {
     display: flex;
-    justify-content: space-between; /* or use `space-around` or `space-evenly` depending on the spacing you want */
-    margin: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   
   .btn {

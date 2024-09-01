@@ -1,16 +1,57 @@
-<html>
-    <body>
-        <h3>Nom demande</h3>
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+  rel="stylesheet"
+/>
 
-<div class="card">
-    <div class="container">
-      <h4><b>Demande de congès</b></h4> 
-      <p>Ahmed Lakhdher</p> 
-      <p>12/05/2023</p>
-      <p>Vacance d'été</p>
-      <button class="btn" >Accepter</button><br>
-      <button class="btn" >Refuser</button>
+<html>
+  <body>
+    <h4 style="margin-top: 2rem"><b>Détails demandes</b></h4>
+    <div class="d-flex align-items-start">
+      <div class="card-demande">
+        <div class="container-demande">
+          <h5 class="mb-4"><b>Demande de congès</b></h5>
+
+          <div class="d-flex align-items-center mb-3">
+            <p class="mb-0" style="margin-right: 30px">Ahmed Lakhdher</p>
+            <i class="bi bi-person-workspace me-1" style="color: #1bb043"></i>
+            <span style="color: #1bb043; margin-left: 5px">Department IT</span>
+          </div>
+
+          <p class="mb-4"><b>Date de demande:</b> 31/08/2024</p>
+          <p class="mb-4">
+            <b>Description:</b> lorem lorem lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem lorem
+          </p>
+          <p class="mb-4"><b>Fichier demandé</b></p>
+        </div>
+      </div>
+      <button
+        class="btn btn-outline-success d-flex align-items-center ms-3 mt-5"
+      >
+        <i class="bi bi-check-circle-fill me-2"></i>
+        Valider
+      </button>
+      <button
+        class="btn btn-outline-danger d-flex align-items-center ms-3 mt-5"
+      >
+        <i class="bi bi-x-circle-fill me-2"></i>
+        Invalider
+      </button>
     </div>
-  </div>
-    </body>
+    <h4 style="margin-top: 2rem"><b>Le réglement</b></h4>
+    <div class="d-flex flex-column mb-4">
+      <div class="mb-3">
+        <i class="bi bi-check-square me-2" style="color: #1bb043"></i>
+        <span>reg 1 test test</span>
+      </div>
+      <div class="mb-3">
+        <i class="bi bi-check-square me-2" style="color: #1bb043"></i>
+        <span>reg 1 test test</span>
+      </div>
+      <div class="mb-3">
+        <i class="bi bi-check-square me-2" style="color: #1bb043"></i>
+        <span>reg 1 test test</span>
+      </div>
+    </div>
+  </body>
 </html>
