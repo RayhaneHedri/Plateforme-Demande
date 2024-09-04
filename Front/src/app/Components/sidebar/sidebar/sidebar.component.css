@@ -1,0 +1,4 @@
+.nav-link.active {
+  color: white !important; /* inforces to use this stype and not the style of bootstrap */
+  background-color: #016ca5;
+}

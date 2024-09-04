@@ -2,16 +2,14 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-home-admin',
-  templateUrl: './home-admin.component.html',
-  styleUrl: './home-admin.component.css'
+  selector: 'app-demandes',
+  templateUrl: './demandes.component.html',
+  styleUrl: './demandes.component.css'
 })
-export class HomeAdminComponent {
-
+export class DemandesComponent {
   constructor(private router: Router) {}
   
   goToDemande(): void {
     this.router.navigate(['/home/demande']);
   }
-
 }

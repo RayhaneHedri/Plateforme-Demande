@@ -1,0 +1,29 @@
+* {
+    font-family: Nunito, sans-serif;
+  }
+  
+  body{
+      margin-left: 2rem;
+      margin-right: 2rem;
+  }
+
+  .filter-container {
+    border: 2px solid #343a40; 
+    border-radius: 8px;       
+    padding: 10px;          
+  }
+
+  .card-demande {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.068);
+    border: 0.25px solid rgba(0, 0, 0, 0.244);
+    transition: 0.3s;
+    width: 100%; /* Full width inside the column */
+    max-width: 500px; /* Limit the card's maximum width */
+    margin: 2rem 0;  /* Adjust margin for spacing */
+    border-radius: 1rem;
+}
+
+.container-demande {
+    margin: 2rem;
+}
+

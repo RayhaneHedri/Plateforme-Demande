@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { LoginService } from '../../../../Services/login.service';
 import { Observable, of } from 'rxjs';
+import { LoginService } from '../../../Services/login.service';
 
 @Component({
   selector: 'app-navbar',

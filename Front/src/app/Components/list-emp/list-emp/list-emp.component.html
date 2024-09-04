@@ -1,0 +1,225 @@
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+  rel="stylesheet"
+/>
+<html>
+  <body>
+    
+    <div class="responsive-container-block container">
+   
+      <p class="text-blk team-head-text">Les employés</p>
+         <!-- Filter Container -->
+    <div class="d-flex justify-content-center mb-5 filter-container">
+      <div class="btn-group" role="group">
+        <input
+          type="radio"
+          class="btn-check"
+          name="filter"
+          id="all"
+          autocomplete="off"
+          checked
+        />
+        <label class="btn custom-btn" for="all">all</label>
+
+        <input
+          type="radio"
+          class="btn-check"
+          name="filter"
+          id="validated"
+          autocomplete="off"
+        />
+        <label class="btn custom-btn" for="validated">IT</label>
+
+        <input
+          type="radio"
+          class="btn-check"
+          name="filter"
+          id="unvalidated"
+          autocomplete="off"
+        />
+        <label class="btn custom-btn" for="unvalidated">HR</label>
+
+        <input
+          type="radio"
+          class="btn-check"
+          name="filter"
+          id="oldestToLatest"
+          autocomplete="off"
+        />
+        <label class="btn custom-btn" for="oldestToLatest"
+          >Marketing</label
+        >
+
+        <input
+          type="radio"
+          class="btn-check"
+          name="filter"
+          id="latestToOldest"
+          autocomplete="off"
+        />
+        <label class="btn custom-btn" for="latestToOldest"
+          >Finance</label
+        >
+      </div>
+    </div>
+      
+      <div class="responsive-container-block">
+        <div
+          class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+        >
+          <div class="card">
+            <h3>Ajouter un employé</h3>
+            <i
+              (click)="goToAddEmployee()"
+              class="bi bi-file-plus custom-icon"
+            ></i>
+          </div>
+        </div>
+        <div
+          class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+        >
+          <div class="card">
+            <div class="team-image-wrapper">
+              <img
+                class="team-member-image"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"
+              />
+            </div>
+            <p class="text-blk name">Davis George</p>
+            <p class="text-blk position">CEO</p>
+            <div>
+              <button class="btn btn-primary edit-btn">Modifier</button>
+              <button class="btn btn-primary edit-btn">Supprimer</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+        >
+          <div class="card">
+            <div class="team-image-wrapper">
+              <img
+                class="team-member-image"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png"
+              />
+            </div>
+            <p class="text-blk name">Davis George</p>
+            <p class="text-blk position">CEO</p>
+            <div>
+              <button class="btn btn-primary edit-btn">Modifier</button>
+              <button class="btn btn-primary edit-btn">Supprimer</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+        >
+          <div class="card">
+            <div class="team-image-wrapper">
+              <img
+                class="team-member-image"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png"
+              />
+            </div>
+            <p class="text-blk name">Davis George</p>
+            <p class="text-blk position">CEO</p>
+            <div>
+              <button class="btn btn-primary edit-btn">Modifier</button>
+              <button class="btn btn-primary edit-btn">Supprimer</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+        >
+          <div class="card">
+            <div class="team-image-wrapper">
+              <img
+                class="team-member-image"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png"
+              />
+            </div>
+            <p class="text-blk name">Davis George</p>
+            <p class="text-blk position">CEO</p>
+            <div>
+              <button class="btn btn-primary edit-btn">Modifier</button>
+              <button class="btn btn-primary edit-btn">Supprimer</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+        >
+          <div class="card">
+            <div class="team-image-wrapper">
+              <img
+                class="team-member-image"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"
+              />
+            </div>
+            <p class="text-blk name">Davis George</p>
+            <p class="text-blk position">CEO</p>
+            <div>
+              <button class="btn btn-primary edit-btn">Modifier</button>
+              <button class="btn btn-primary edit-btn">Supprimer</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+        >
+          <div class="card">
+            <div class="team-image-wrapper">
+              <img
+                class="team-member-image"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png"
+              />
+            </div>
+            <p class="text-blk name">Davis George</p>
+            <p class="text-blk position">CEO</p>
+            <div>
+              <button class="btn btn-primary edit-btn">Modifier</button>
+              <button class="btn btn-primary edit-btn">Supprimer</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+        >
+          <div class="card">
+            <div class="team-image-wrapper">
+              <img
+                class="team-member-image"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png"
+              />
+            </div>
+            <p class="text-blk name">Davis George</p>
+            <p class="text-blk position">CEO</p>
+            <div>
+              <button class="btn btn-primary edit-btn">Modifier</button>
+              <button class="btn btn-primary edit-btn">Supprimer</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container"
+        >
+          <div class="card">
+            <div class="team-image-wrapper">
+              <img
+                class="team-member-image"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+              />
+            </div>
+            <p class="text-blk name">Davis George</p>
+            <p class="text-blk position">CEO</p>
+            <div>
+              <button class="btn btn-primary edit-btn">Modifier</button>
+              <button class="btn btn-primary edit-btn">Supprimer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

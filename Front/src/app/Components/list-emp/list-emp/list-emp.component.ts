@@ -10,7 +10,7 @@ export class ListEmpComponent {
   constructor(private router: Router) {}
   
   goToAddEmployee(): void {
-    this.router.navigate(['/home/employes/ajoutEmp']);
+    this.router.navigate(['/dash/employes/ajoutEmp']);
   }
 
 }
